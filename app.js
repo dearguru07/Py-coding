@@ -32,11 +32,20 @@
 
 
 
-var a=20
-console.log(a)
+// var a=20
+// console.log(a)
 
-function b(){
-    var a=20
-    console.log(a)
+// function b(){
+//     var a=20
+//     console.log(a)
+// }
+// b()
+
+
+let a = 20
+function b(c){
+    let ans=c*c
+    return ans
 }
-b()
+let ans=b(2)
+// console.log(ans)
