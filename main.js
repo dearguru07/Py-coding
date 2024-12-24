@@ -34,4 +34,7 @@ function fetchData() {
   }).catch((error) => {
     console.error(error);
   });
-  
+
+
+console.log('Hello world...')  
+console.log('Hello world...')
