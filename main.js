@@ -17,43 +17,34 @@
 //   console.log(data);
 // });
 
-function fetchData() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const data = { name: "John", age: 30 };
-      resolve(data);
-    }, 1000);
-  });
+// function fetchData() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       const data = { name: "John", age: 30 };
+//       resolve(data);
+//     }, 1000);
+//   });
+// }
+
+
+// fetchData()
+//   .then((data) => {
+//     console.log(data); // { name: 'John', age: 30 }
+//   })
+//   .catch((error) => {
+//     console.error(error);
+//   });
+
+// console.log("Hello world...");
+
+// let value = [2, 5, 6, 4, 3, 0];
+// value.forEach((i) => {
+//   console.log(i);
+// });
+
+
+var b=12
+function a(){
+  console.log(b)
 }
-
-fetchData()
-  .then((data) => {
-    console.log(data); // { name: 'John', age: 30 }
-  })
-  .catch((error) => {
-    console.error(error);
-  });
-
-function fetchData() {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const data = { name: "John", age: 30 };
-      resolve(data);
-    }, 1000);
-  });
-}
-
-fetchData()
-  .then((data) => {
-    console.log(data); // { name: 'John', age: 30 }
-  })
-  .catch((error) => {
-    console.error(error);
-  });
-
-console.log("Hello world...");
-
-let value = [2, 5, 6, 4, 3, 0];
-value.forEach((i) => {
-  console.log(i);
-});
+a()
