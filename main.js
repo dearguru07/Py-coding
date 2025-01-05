@@ -43,8 +43,24 @@
 // });
 
 
-var b=12
-function a(){
-  console.log(b)
-}
-a()
+// var b=12
+// function a(){
+//   console.log(b)
+// }
+// a()
+
+
+console.log('one')
+console.log('two')
+console.log('three')
+console.log('four')
+  resolve()
+let myPromise=new Promise((resolve,reject)=>{
+  resolve()
+  console.lo('Fivee..')
+})
+myPromise.then(()=>{
+  console.log('Six..')
+}).catch(()=>{
+console.log('seven...')
+})
