@@ -72,23 +72,54 @@
 // if(true){
 //     console.log('Hello')
 
-const c =100
-{
-  var a = 10;
-  let b = 20;
-  const c = 30;
-  console.log(a);
-  console.log(b);
-  console.log(c);
-}
-// console.log(a)
-console.log(c);
+// const c =100
+// {
+//   var a = 10;
+//   let b = 20;
+//   const c = 30;
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
+// // console.log(a)
 // console.log(c);
+// // console.log(c);
 
-const a = 20;
-{
-  const a = 25;
-  console.log(a)
+// const a = 20;
+// {
+//   const a = 25;
+//   console.log(a)
+// }
+
+// console.log(a)
+
+// function a(){
+//     var b=20
+//     function c(){
+//         console.log(b)
+//     }
+//     return c
+// }
+// var z=a()
+// console.log(z)
+
+
+// function a() {
+//   for (var i = 1; i <= 5; i++) {
+//       setTimeout(() => {
+//         console.log(i);
+//       }, i * 1000);
+//     }
+//   }
+// a();
+
+
+
+function c(){
+    for(let i=1;i<=5;i++){
+        setTimeout(()=>{
+            console.log(i)
+        },i*1000)
+    }
 }
-
-console.log(a)
+c()
