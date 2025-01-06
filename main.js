@@ -26,7 +26,6 @@
 //   });
 // }
 
-
 // fetchData()
 //   .then((data) => {
 //     console.log(data); // { name: 'John', age: 30 }
@@ -42,13 +41,11 @@
 //   console.log(i);
 // });
 
-
 // var b=12
 // function a(){
 //   console.log(b)
 // }
 // a()
-
 
 // console.log('one')
 // console.log('two')
@@ -65,14 +62,33 @@
 // console.log('seven...')
 // })
 
+// console.log('Hello world.....')
+// let  a=20
+// // let a=25
 
-console.log('Hello world.....')
-let  a=20
-// let a=25
+// // var a=20
+// // const a=25
 
-// var a=20
-// const a=25
+// if(true){
+//     console.log('Hello')
 
-if(true){
-    console.log('Hello')
+const c =100
+{
+  var a = 10;
+  let b = 20;
+  const c = 30;
+  console.log(a);
+  console.log(b);
+  console.log(c);
 }
+// console.log(a)
+console.log(c);
+// console.log(c);
+
+const a = 20;
+{
+  const a = 25;
+  console.log(a)
+}
+
+console.log(a)
