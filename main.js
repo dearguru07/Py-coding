@@ -50,17 +50,29 @@
 // a()
 
 
-console.log('one')
-console.log('two')
-console.log('three')
-console.log('four')
-  resolve()
-let myPromise=new Promise((resolve,reject)=>{
-  resolve()
-  console.lo('Fivee..')
-})
-myPromise.then(()=>{
-  console.log('Six..')
-}).catch(()=>{
-console.log('seven...')
-})
+// console.log('one')
+// console.log('two')
+// console.log('three')
+// console.log('four')
+//   resolve()
+// let myPromise=new Promise((resolve,reject)=>{
+//   resolve()
+//   console.lo('Fivee..')
+// })
+// myPromise.then(()=>{
+//   console.log('Six..')
+// }).catch(()=>{
+// console.log('seven...')
+// })
+
+
+console.log('Hello world.....')
+let  a=20
+// let a=25
+
+// var a=20
+// const a=25
+
+if(true){
+    console.log('Hello')
+}
