@@ -13,22 +13,4 @@
 # print(last)
 
 
-set
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
-print('Hello')
+print('Namstee python')
