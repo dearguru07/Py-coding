@@ -14,14 +14,3 @@
 
 
 print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
-print('Namstee python')
